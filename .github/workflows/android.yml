@@ -12,7 +12,7 @@ permissions:
 env:
   # Keep both channels in this workflow: run_number is scoped to a workflow.
   VERSION_CODE_BASE: '1000'
-  SIGNING_CERTIFICATE_SHA256: 9a94d8a6cdd03884184da0a52afe27f93acae5b450d59c7e2703f8102381d7af
+  SIGNING_CERTIFICATE_SHA256: f84a2dc8e65c6ebb38fdb6cf7685d1352b813af5ca4f106d6ec1235b759c1339
 
 jobs:
   metadata:
