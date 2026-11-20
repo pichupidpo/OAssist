@@ -1,6 +1,7 @@
 name: Android builds
 
 on:
+  workflow_dispatch:
   push:
     branches: ['**']
     tags: ['v*']
