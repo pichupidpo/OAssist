@@ -87,6 +87,7 @@
     <application
         android:name=".OAssistApp"
         android:allowBackup="false"
+        android:usesCleartextTraffic="true"
         android:fullBackupContent="@xml/backup_rules"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:icon="@drawable/ic_launcher"
